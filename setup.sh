@@ -1,5 +1,5 @@
 #!/bin/bash
-#########################
+#################
 #####
 # this script will setup this project.
 # run ./setup.sh to run this project.
