@@ -25,7 +25,7 @@ pipeline {
         stage("Deploy on Test"){
             steps{
                 // deploy on container -> plugin
-                deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://3.110.108.214:8080')], contextPath: '/venutest', war: '**/*.war'
+                deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://13.235.80.38:8080')], contextPath: '/venutest', war: '**/*.war'
               
             }
             
@@ -38,7 +38,7 @@ pipeline {
             
             steps{
                 // deploy on container -> plugin
-                deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://3.110.108.214:8080')], contextPath: '/venuprod', war: '**/*.war'
+                deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://13.235.80.38:8080')], contextPath: '/venuprod', war: '**/*.war'
 
             }
         }
