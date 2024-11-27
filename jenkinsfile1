@@ -48,7 +48,7 @@ pipeline {
             echo "========always========"
         }
         success{
-            echo "========pipeline executed successfully thank you mr venu gopal .k ========"
+            echo "========pipeline executed successfully thank you mr k.venu gopal ========"
 
         }
         failure{
